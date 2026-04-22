@@ -1,2 +1,2 @@
-# GRC-Aware-IR-Agent--SANS-Hackathon
-GRC-Aware IR Agent — FIND EVIL! 2026 submission. Produces compliance-ready outputs (MITRE ATT&amp;CK + ATLAS, NIST CSF 2.0 + ISO 42001, risk scoring) from autonomous DFIR.
+When an incident response agent investigates a compromised host, it produces DFIR output: which process is malicious, what the attacker did, which files were touched. GRC teams then manually translate that into: which compliance controls were bypassed, which MITRE ATT&CK techniques were observed, what the risk to the business is, and who needs to be notified within what regulatory timeframe.
+This agent closes that gap. It extends Protocol SIFT with a custom MCP server that provides four GRC-specific tools, so the same autonomous agent that finds evil also produces the GRC artifacts a Security GRC team needs to act.
