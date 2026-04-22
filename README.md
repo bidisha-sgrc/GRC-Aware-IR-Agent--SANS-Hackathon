@@ -28,3 +28,20 @@ See [`SCOPE.md`](SCOPE.md) — locked on 2026-04-21.
 Instructions for judges coming in Week 7. Target: run on a fresh SIFT Workstation in under 15 minutes.
 
 ## Repository structure
+├── README.md                    # This file
+├── LICENSE                      # MIT
+├── SCOPE.md                     # Locked project scope
+├── docs/                        # Architecture, design, dataset, accuracy docs
+├── src/grc_mcp_server/          # Custom MCP server (Python)
+├── data/                        # ATT&CK / ATLAS / NIST CSF reference data
+├── evidence/                    # Synthetic (shipped) + real (gitignored)
+├── logs/                        # Sample agent execution logs
+├── tools/                       # Utility scripts
+└── tests/
+## License
+
+[MIT](LICENSE) — per FIND EVIL! submission rule R2.
+
+## Author
+
+Bidisha Dutta Dhar — Security GRC practitioner exploring autonomous IR.
